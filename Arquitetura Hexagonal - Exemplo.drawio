@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Página-1" id="-v4YQvwHDaepZfeHncD6">
+    <mxGraphModel dx="2781" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-23" value="O domínio expoẽ apenas o necessário, tornando-se independente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="530" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-22" value="O Agente Externo vai determinar as regras do negócio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-215" y="460" width="430" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-1" target="Br-CE_CZAtv92cdr0GRY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-1" value="Empresa de Meio de Pagamentos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="160" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-3" target="Br-CE_CZAtv92cdr0GRY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-3" value="Verificação de fraude" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-6" value="API da Receita Federal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="190" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.151;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-9" target="Br-CE_CZAtv92cdr0GRY-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-9" value="Domínio Exposto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="500" width="340" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-13" value="Domínio Protegido" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="495" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-15" value="Novo Campo&lt;div&gt;&quot;Renda Mensal&quot;&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="615" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-17" value="API da Receita Federal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="800" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;exitX=0.899;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-17" target="Br-CE_CZAtv92cdr0GRY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-21" value="Interação Direta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=14;" vertex="1" connectable="0" parent="Br-CE_CZAtv92cdr0GRY-19">
+          <mxGeometry x="-0.1426" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-24" target="Br-CE_CZAtv92cdr0GRY-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-24" value="Porta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="615" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-25" target="Br-CE_CZAtv92cdr0GRY-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="940" />
+              <mxPoint x="680" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-25" value="Adaptador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="780" width="370" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-26" target="Br-CE_CZAtv92cdr0GRY-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="503" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-26" value="API da Receita Federal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421.25" y="980" width="347.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Br-CE_CZAtv92cdr0GRY-30" target="Br-CE_CZAtv92cdr0GRY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-30" value="Contrato:&lt;div&gt;- Score&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="520" y="695" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Br-CE_CZAtv92cdr0GRY-42" value="Novo Campo&lt;div&gt;&quot;Renda Mensal&quot;&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
